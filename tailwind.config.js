@@ -10,8 +10,8 @@ module.exports = {
         'Josefin-sans': '"Josefin Sans", sans-serif'
       },
       backgroundImage:{
-        'hero-mobile': "url('/images/mobile/image-hero.jpg')",
-        'hero-desktop': "url('/images/desktop/image-hero.jpg')"
+        'hero-mobile': "url('./images/mobile/image-hero.jpg')",
+        'hero-desktop': "url('./images/desktop/image-hero.jpg')"
       },
       colors: {
         'Dark-Gary': 'hsl(0, 0%, 55%)',
