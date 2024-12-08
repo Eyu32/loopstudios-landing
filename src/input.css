@@ -20,11 +20,11 @@
 .active-nav-list{
     display: flex;
 }
-.hero{
-    background-image: url('./images/desktop/image-hero.jpg');
+#hero{
+    background-image: url('./images/image-mobile-hero.jpg');
 }
 @media (min-width: 640px) {
-    .hero{
-        background-image: url('./images/mobile/image-hero.jpg');
+    #hero{
+        background-image: url('./images/image-desktop-hero.jpg');
     }
 }
